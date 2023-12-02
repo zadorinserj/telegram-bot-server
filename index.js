@@ -6,7 +6,7 @@ fastify.get('/', function (request, reply) {
     reply.send({ hello: 'world' })
 });
 
-fastify.get('/home/', function (request, reply) {
+fastify.get('/home', function (request, reply) {
     reply.status(200).send({ hello: 'world' })
 });
 
